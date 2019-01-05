@@ -20,9 +20,9 @@ class testcls
   def test11: Int = {
 
 
-    var dd = 25
+    var dd = 20
 
-    var  dd1 = 10
+    var  dd1 = 20
 
     var kkk = dd + dd1
 
