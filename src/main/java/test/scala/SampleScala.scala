@@ -16,7 +16,7 @@ class SampleScala
 
 
     Assert.assertNotNull(ddd.test11)
-    Assert.assertEquals(ddd.test11, 55)
+    Assert.assertEquals(ddd.test11, 50)
   }
 
 
