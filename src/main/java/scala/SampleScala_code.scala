@@ -22,7 +22,7 @@ class testcls
 
     var dd = 25
 
-    var  dd1 = 25
+    var  dd1 = 10
 
     var kkk = dd + dd1
 
