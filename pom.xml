@@ -17,8 +17,20 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+
                 </configuration>
-            </plugin></plugins>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifestFile>src/main/resources/META-INF/Manifest.MF</manifestFile>
+                    </archive>
+                </configuration>
+            </plugin>
+
+        </plugins>
     </build>
     <dependencies>
         <dependency>
